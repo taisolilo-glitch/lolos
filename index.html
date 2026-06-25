@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<title>Mapa de nosaltres</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="page-shell">
+  <div class="section-header">
+    <h1>LA NOSTRA HISTORIA</h1>
+  </div>
+
+  <section class="story-section">
+    <div class="counter-panel">
+      <p class="counter-label">DIES JUNTES</p>
+      <div class="counter-value" id="daysCounter">0 mesos · 0 dies · 0 hores</div>
+    </div>
+    <div class="photo-note">
+      <img src="IMG_9562.jpeg" alt="Foto de nosaltres" class="photo-note-image">
+      <div class="photo-note-bubble">
+        <span>La més guapa de l’univers sencer (i de Mercuri)</span>
+      </div>
+    </div>
+    <div class="story-divider"></div>
+    <div class="map-section">
+      <h2 class="map-title">EL NOSTRE MAPA</h2>
+      <p class="map-subtitle">Barcelona s'il·lumina quan et tinc al meu costat</p>
+      <div class="map">
+        <div class="map-inner">
+        <svg class="pin-connections" viewBox="0 0 735 986" preserveAspectRatio="none">
+          <polyline points="414,376 377,452 500,536 228,577 286,610 249,670 365,620 349,675 306,745 88,619" stroke="#7a5c42" stroke-width="4" fill="none" opacity="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+
+        <!-- PINS FIJOS: exact positions detected from mapa-dots.png -->
+
+        <div class="pin" style="top:38.08%; left:56.35%;"></div>
+        <div class="pin" style="top:45.87%; left:51.30%;"></div>
+        <div class="pin" style="top:54.25%; left:68.07%;"></div>
+        <div class="pin" style="top:58.53%; left:30.97%;"></div>
+        <div class="pin" style="top:59.04%; left:38.99%;"></div>
+        <div class="pin" style="top:61.82%; left:33.84%;"></div>
+        <div class="pin" style="top:62.79%; left:49.66%;"></div>
+        <div class="pin" style="top:63.45%; left:47.60%;"></div>
+        <div class="pin" style="top:72.08%; left:41.61%;"></div>
+        <div class="pin" style="top:73.58%; left:47.61%;"></div>
+        <div class="pin" style="top:62.70%; left:12.00%;"></div>
+        <div class="pin" style="top:73.61%; left:21.56%;"></div>
+        <div class="pin" style="top:74.98%; left:25.24%;"></div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- MODAL -->
+<div id="modal" class="modal">
+  <div class="polaroid">
+    <button class="close" onclick="closeModal()">✕</button>
+    <img id="modalImage" src="" alt="" class="polaroid-image">
+    <div class="polaroid-caption">
+      <h2 id="modalTitle"></h2>
+      <p id="modalText"></p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+<!-- =========================
+     BANDA SONORA
+========================= -->
+
+<section class="music-section">
+
+  <div class="music-box">
+
+    <h2>La nostra banda sonora</h2>
+
+    <div class="music-categories">
+
+      <button onclick="showMusic('love')">T'estimo</button>
+      <button onclick="showMusic('miss')">Et trobo a faltar</button>
+
+    </div>
+
+    <div id="musicList" class="music-list">
+      <p class="music-placeholder">
+      Cançons que em recorden a tu
+      </p>
+    </div>
+
+  </div>
+
+</section>
