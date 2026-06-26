@@ -151,12 +151,12 @@ const music = {
     {
       title: "Hey Soul Sister",
       artist: "Train",
-      text: "Energía que em recorda a nosaltres.",
+      text: "I want the world to see, you'll be with me",
     },
     {
       title: "Cheerleader",
       artist: "OMI",
-      text: "Simple, alegre, com tu.",
+      text: "You're the only girl for me, no, I don't need a next one",
     }
   ],
 
@@ -164,17 +164,17 @@ const music = {
     {
       title: "Yellow",
       artist: "Coldplay",
-      text: "Quan et trobo a faltar massa.",
+      text: "For you I'd bleed myself dry",
     },
     {
       title: "Never Be Alone",
       artist: "Shawn Mendes",
-      text: "Quan la distància pesa.",
+      text: "Just remember that we lay under the same stars",
     },
     {
       title: "Hey There Delilah",
       artist: "Plain White T's",
-      text: "Quan només vull parlar amb tu.",
+      text: "I'd walk to you if I had no other way",
     }
   ]
 };
